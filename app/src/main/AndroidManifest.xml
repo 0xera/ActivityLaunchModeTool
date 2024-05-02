@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.lecture5">
+    package="com.zeroxera.activity.launcher.tool">
 
     <application
         android:name=".presentation.App"
@@ -29,169 +29,169 @@
 
         <activity
             android:name=".presentation.activities.standard.affinity.StandardAffinityA"
-            android:taskAffinity="com.example.lecture5.affinity.A" />
+            android:taskAffinity="com.zeroxera.activity.launcher.tool.affinity.A" />
 
         <activity
             android:name=".presentation.activities.standard.affinity.StandardAffinityB"
-            android:taskAffinity="com.example.lecture5.affinity.B" />
+            android:taskAffinity="com.zeroxera.activity.launcher.tool.affinity.B" />
 
         <activity
             android:name=".presentation.activities.standard.affinity.StandardAffinityC"
-            android:taskAffinity="com.example.lecture5.affinity.C" />
+            android:taskAffinity="com.zeroxera.activity.launcher.tool.affinity.C" />
 
         <activity
             android:name=".presentation.activities.standard.affinity.StandardAffinityD"
-            android:taskAffinity="com.example.lecture5.affinity.D" />
+            android:taskAffinity="com.zeroxera.activity.launcher.tool.affinity.D" />
 
 
         <activity
-            android:name="com.example.lecture5.presentation.activities.single.top.SingleTopA"
+            android:name="com.zeroxera.activity.launcher.tool.presentation.activities.single.top.SingleTopA"
             android:launchMode="singleTop" />
 
         <activity
-            android:name="com.example.lecture5.presentation.activities.single.top.SingleTopB"
+            android:name="com.zeroxera.activity.launcher.tool.presentation.activities.single.top.SingleTopB"
             android:launchMode="singleTop" />
 
         <activity
-            android:name="com.example.lecture5.presentation.activities.single.top.SingleTopC"
+            android:name="com.zeroxera.activity.launcher.tool.presentation.activities.single.top.SingleTopC"
             android:launchMode="singleTop" />
 
         <activity
-            android:name="com.example.lecture5.presentation.activities.single.top.SingleTopD"
+            android:name="com.zeroxera.activity.launcher.tool.presentation.activities.single.top.SingleTopD"
             android:launchMode="singleTop" />
 
         <activity
-            android:name="com.example.lecture5.presentation.activities.single.top.affinity.SingleTopAffinityA"
+            android:name="com.zeroxera.activity.launcher.tool.presentation.activities.single.top.affinity.SingleTopAffinityA"
             android:launchMode="singleTop"
-            android:taskAffinity="com.example.lecture5.affinity.A" />
+            android:taskAffinity="com.zeroxera.activity.launcher.tool.affinity.A" />
 
         <activity
-            android:name="com.example.lecture5.presentation.activities.single.top.affinity.SingleTopAffinityB"
+            android:name="com.zeroxera.activity.launcher.tool.presentation.activities.single.top.affinity.SingleTopAffinityB"
             android:launchMode="singleTop"
-            android:taskAffinity="com.example.lecture5.affinity.B" />
+            android:taskAffinity="com.zeroxera.activity.launcher.tool.affinity.B" />
 
         <activity
-            android:name="com.example.lecture5.presentation.activities.single.top.affinity.SingleTopAffinityC"
+            android:name="com.zeroxera.activity.launcher.tool.presentation.activities.single.top.affinity.SingleTopAffinityC"
             android:launchMode="singleTop"
-            android:taskAffinity="com.example.lecture5.affinity.C" />
+            android:taskAffinity="com.zeroxera.activity.launcher.tool.affinity.C" />
 
         <activity
-            android:name="com.example.lecture5.presentation.activities.single.top.affinity.SingleTopAffinityD"
+            android:name="com.zeroxera.activity.launcher.tool.presentation.activities.single.top.affinity.SingleTopAffinityD"
             android:launchMode="singleTop"
-            android:taskAffinity="com.example.lecture5.affinity.D" />
+            android:taskAffinity="com.zeroxera.activity.launcher.tool.affinity.D" />
 
 
         <activity
-            android:name="com.example.lecture5.presentation.activities.single.task.SingleTaskA"
+            android:name="com.zeroxera.activity.launcher.tool.presentation.activities.single.task.SingleTaskA"
             android:launchMode="singleTask" />
 
 
         <activity
-            android:name="com.example.lecture5.presentation.activities.single.task.SingleTaskB"
+            android:name="com.zeroxera.activity.launcher.tool.presentation.activities.single.task.SingleTaskB"
             android:launchMode="singleTask" />
 
         <activity
-            android:name="com.example.lecture5.presentation.activities.single.task.SingleTaskC"
+            android:name="com.zeroxera.activity.launcher.tool.presentation.activities.single.task.SingleTaskC"
             android:launchMode="singleTask" />
 
         <activity
-            android:name="com.example.lecture5.presentation.activities.single.task.SingleTaskD"
+            android:name="com.zeroxera.activity.launcher.tool.presentation.activities.single.task.SingleTaskD"
             android:launchMode="singleTask" />
 
 
         <activity
-            android:name="com.example.lecture5.presentation.activities.single.task.affinity.SingleTaskAffinityA"
+            android:name="com.zeroxera.activity.launcher.tool.presentation.activities.single.task.affinity.SingleTaskAffinityA"
             android:launchMode="singleTask"
-            android:taskAffinity="com.example.lecture5.affinity.A" />
+            android:taskAffinity="com.zeroxera.activity.launcher.tool.affinity.A" />
 
         <activity
-            android:name="com.example.lecture5.presentation.activities.single.task.affinity.SingleTaskAffinityB"
+            android:name="com.zeroxera.activity.launcher.tool.presentation.activities.single.task.affinity.SingleTaskAffinityB"
             android:launchMode="singleTask"
-            android:taskAffinity="com.example.lecture5.affinity.B" />
+            android:taskAffinity="com.zeroxera.activity.launcher.tool.affinity.B" />
 
         <activity
-            android:name="com.example.lecture5.presentation.activities.single.task.affinity.SingleTaskAffinityC"
+            android:name="com.zeroxera.activity.launcher.tool.presentation.activities.single.task.affinity.SingleTaskAffinityC"
             android:launchMode="singleTask"
-            android:taskAffinity="com.example.lecture5.affinity.C" />
+            android:taskAffinity="com.zeroxera.activity.launcher.tool.affinity.C" />
 
         <activity
-            android:name="com.example.lecture5.presentation.activities.single.task.affinity.SingleTaskAffinityD"
+            android:name="com.zeroxera.activity.launcher.tool.presentation.activities.single.task.affinity.SingleTaskAffinityD"
             android:launchMode="singleTask"
-            android:taskAffinity="com.example.lecture5.affinity.D" />
+            android:taskAffinity="com.zeroxera.activity.launcher.tool.affinity.D" />
 
         <activity
-            android:name="com.example.lecture5.presentation.activities.single.instance.SingleInstanceA"
+            android:name="com.zeroxera.activity.launcher.tool.presentation.activities.single.instance.SingleInstanceA"
             android:launchMode="singleInstance" />
 
         <activity
-            android:name="com.example.lecture5.presentation.activities.single.instance.SingleInstanceB"
+            android:name="com.zeroxera.activity.launcher.tool.presentation.activities.single.instance.SingleInstanceB"
             android:launchMode="singleInstance" />
 
         <activity
-            android:name="com.example.lecture5.presentation.activities.single.instance.SingleInstanceC"
+            android:name="com.zeroxera.activity.launcher.tool.presentation.activities.single.instance.SingleInstanceC"
             android:launchMode="singleInstance" />
 
         <activity
-            android:name="com.example.lecture5.presentation.activities.single.instance.SingleInstanceD"
+            android:name="com.zeroxera.activity.launcher.tool.presentation.activities.single.instance.SingleInstanceD"
             android:launchMode="singleInstance" />
 
 
         <activity
-            android:name="com.example.lecture5.presentation.activities.single.instance.affinity.SingleInstanceAffinityA"
+            android:name="com.zeroxera.activity.launcher.tool.presentation.activities.single.instance.affinity.SingleInstanceAffinityA"
             android:launchMode="singleTask"
-            android:taskAffinity="com.example.lecture5.affinity.A" />
+            android:taskAffinity="com.zeroxera.activity.launcher.tool.affinity.A" />
 
         <activity
-            android:name="com.example.lecture5.presentation.activities.single.instance.affinity.SingleInstanceAffinityB"
+            android:name="com.zeroxera.activity.launcher.tool.presentation.activities.single.instance.affinity.SingleInstanceAffinityB"
             android:launchMode="singleTask"
-            android:taskAffinity="com.example.lecture5.affinity.B" />
+            android:taskAffinity="com.zeroxera.activity.launcher.tool.affinity.B" />
 
         <activity
-            android:name="com.example.lecture5.presentation.activities.single.instance.affinity.SingleInstanceAffinityC"
+            android:name="com.zeroxera.activity.launcher.tool.presentation.activities.single.instance.affinity.SingleInstanceAffinityC"
             android:launchMode="singleTask"
-            android:taskAffinity="com.example.lecture5.affinity.C" />
+            android:taskAffinity="com.zeroxera.activity.launcher.tool.affinity.C" />
 
         <activity
-            android:name="com.example.lecture5.presentation.activities.single.instance.affinity.SingleInstanceAffinityD"
+            android:name="com.zeroxera.activity.launcher.tool.presentation.activities.single.instance.affinity.SingleInstanceAffinityD"
             android:launchMode="singleTask"
-            android:taskAffinity="com.example.lecture5.affinity.D" />
+            android:taskAffinity="com.zeroxera.activity.launcher.tool.affinity.D" />
 
         <activity
-            android:name="com.example.lecture5.presentation.activities.single.instance.pertask.SingleInstancePerTaskA"
+            android:name="com.zeroxera.activity.launcher.tool.presentation.activities.single.instance.pertask.SingleInstancePerTaskA"
             android:launchMode="singleInstancePerTask" />
 
         <activity
-            android:name="com.example.lecture5.presentation.activities.single.instance.pertask.SingleInstancePerTaskB"
+            android:name="com.zeroxera.activity.launcher.tool.presentation.activities.single.instance.pertask.SingleInstancePerTaskB"
             android:launchMode="singleInstancePerTask" />
 
         <activity
-            android:name="com.example.lecture5.presentation.activities.single.instance.pertask.SingleInstancePerTaskC"
+            android:name="com.zeroxera.activity.launcher.tool.presentation.activities.single.instance.pertask.SingleInstancePerTaskC"
             android:launchMode="singleInstancePerTask" />
 
         <activity
-            android:name="com.example.lecture5.presentation.activities.single.instance.pertask.SingleInstancePerTaskD"
+            android:name="com.zeroxera.activity.launcher.tool.presentation.activities.single.instance.pertask.SingleInstancePerTaskD"
             android:launchMode="singleInstancePerTask" />
 
 
         <activity
-            android:name="com.example.lecture5.presentation.activities.single.instance.pertask.affinity.SingleInstancePerTaskAffinityA"
+            android:name="com.zeroxera.activity.launcher.tool.presentation.activities.single.instance.pertask.affinity.SingleInstancePerTaskAffinityA"
             android:launchMode="singleInstancePerTask"
-            android:taskAffinity="com.example.lecture5.affinity.A" />
+            android:taskAffinity="com.zeroxera.activity.launcher.tool.affinity.A" />
 
         <activity
-            android:name="com.example.lecture5.presentation.activities.single.instance.pertask.affinity.SingleInstancePerTaskAffinityB"
+            android:name="com.zeroxera.activity.launcher.tool.presentation.activities.single.instance.pertask.affinity.SingleInstancePerTaskAffinityB"
             android:launchMode="singleInstancePerTask"
-            android:taskAffinity="com.example.lecture5.affinity.B" />
+            android:taskAffinity="com.zeroxera.activity.launcher.tool.affinity.B" />
 
         <activity
-            android:name="com.example.lecture5.presentation.activities.single.instance.pertask.affinity.SingleInstancePerTaskAffinityC"
+            android:name="com.zeroxera.activity.launcher.tool.presentation.activities.single.instance.pertask.affinity.SingleInstancePerTaskAffinityC"
             android:launchMode="singleInstancePerTask"
-            android:taskAffinity="com.example.lecture5.affinity.C" />
+            android:taskAffinity="com.zeroxera.activity.launcher.tool.affinity.C" />
 
         <activity
-            android:name="com.example.lecture5.presentation.activities.single.instance.pertask.affinity.SingleInstancePerTaskAffinityD"
+            android:name="com.zeroxera.activity.launcher.tool.presentation.activities.single.instance.pertask.affinity.SingleInstancePerTaskAffinityD"
             android:launchMode="singleInstancePerTask"
-            android:taskAffinity="com.example.lecture5.affinity.D" />
+            android:taskAffinity="com.zeroxera.activity.launcher.tool.affinity.D" />
     </application>
 
 </manifest>
