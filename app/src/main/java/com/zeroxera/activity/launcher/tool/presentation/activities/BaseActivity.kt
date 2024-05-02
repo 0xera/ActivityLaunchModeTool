@@ -12,6 +12,7 @@ import com.zeroxera.activity.launcher.tool.R
 import com.zeroxera.activity.launcher.tool.presentation.App
 import com.zeroxera.activity.launcher.tool.presentation.adapters.activity.ActivityStartAdapter
 import com.zeroxera.activity.launcher.tool.presentation.adapters.flag.FlagsAdapter
+import com.zeroxera.activity.launcher.tool.provider.FlagProvider.Companion.ALL_FLAGS
 import com.zeroxera.activity.launcher.tool.presentation.adapters.stack.StackAdapter
 import com.zeroxera.activity.launcher.tool.provider.FlagProvider
 import com.zeroxera.activity.launcher.tool.util.queryLaunchedFlags
@@ -68,7 +69,7 @@ abstract class BaseActivity : ComponentActivity() {
 
     private fun initFlags() {
         val flagsAdapter = FlagsAdapter(
-            flags = flagsProvider.flags,
+            flags = ALL_FLAGS,
             isSelected = { flagsProvider.isInSelected(it) },
             onSelected = { isChecked, flag ->
                 if (isChecked) flagsProvider.setFlag(flag)
@@ -88,7 +89,7 @@ abstract class BaseActivity : ComponentActivity() {
             onStart = { clazz ->
                 var flagCodes = 0
                 flagsProvider.selectedFlags.forEach { flag ->
-                    flagCodes = flagCodes or flag.code
+                    flagCodes = flagCodes or flag.value
                 }
                 startActivity(
                     Intent(this, clazz)
